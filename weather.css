@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(8 7 28);
+}
+
+h2,
+h3,
+h1 {
+  color: white;
+  font-weight: 700;
+}
+.input {
+  margin-left: 50px;
+}
+.sunny {
+  position: absolute;
+  top: 150px;
+  left: 90px;
+}
+.rainy {
+  position: absolute;
+  top: 150px;
+  right: 90px;
+}
+p {
+  color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="weather.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <main class="container mt-5">
+      <div class="input">
+        <div class="row">
+          <div class="col-10">
+            <input
+              class="form-control"
+              placeholder="Enter a city..."
+              type="text"
+              name=""
+              id=""
+            />
+          </div>
+          <div class="col-2">
+            <button class="btn btn-light">Search</button>
+          </div>
+        </div>
+      </div>
+      <div class="weather-city">
+        <div class="sunny">
+          <h3>Sunny Day?</h3>
+        </div>
+        <div class="rainy">
+          <h3>Rainy Day?</h3>
+        </div>
+        <div class="text-center my-5">
+          <img src="weather_icon.png" alt="" style="width: 350px" />
+        </div>
+        <div class="text-center mb-5">
+          <h2>Stay informed with our app!</h2>
+        </div>
+      </div>
+    </main>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
