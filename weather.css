@@ -9,17 +9,17 @@ h1 {
   font-weight: 700;
 }
 .input {
-  margin-left: 50px;
+  margin-left: 5%;
 }
 .sunny {
   position: absolute;
   top: 150px;
-  left: 90px;
+  left: 14%;
 }
 .rainy {
   position: absolute;
   top: 150px;
-  right: 90px;
+  right: 15%;
 }
 p {
   color: white;
