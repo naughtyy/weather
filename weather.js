@@ -5,7 +5,7 @@ const weatherDiv = document.querySelector(".weather-city");
 let cityName = "";
 const getWeatherData = async () => {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${input.value}&days=1&aqi=no&alerts=no`
+    `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${input.value}&days=1&aqi=no&alerts=no`
   );
   const responseData = await response.json();
 
